@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 688px;
+    position: relative;
+}
+
+.main .box {
+
+    height: 688px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 111px;
+    z-index: 10;
+    position: relative;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    width: 55px;
+}
+
+.main .hero {
+    height: calc(85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.hero>:first-child {
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-family: poppins;
+    font-weight: bolder;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero>:nth-child(3) {
+    font-family: poppins;
+    font-weight: bolder;
+    font-weight: 800;
+    font-size: 22px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    font-weight: bolder;
+    background-color: white;
+    padding: 3px 1px;
+}
+
+.btntwo {
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 3px 24px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+  font-weight: 400;
+}
+
+.main input {
+    padding: 11px 122px 5px 56px; ;
+    padding-inline-end: 1px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid rgba(23,23,23,0.7);
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt{
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius:4px;
+}
+
+.first{ display: flex;
+        justify-content: center;
+        max-width: 70vw;
+        margin: auto;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.secimg img{
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg{
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    top: 27px;
+    right: 86px;
+    width: 22vw;
+   
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :first-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+.separation1{
+        height: 7px;
+        background-color: rgb(46, 44, 44);
+        position: relative;
+        z-index: 1;
+}
+
+
+.secimg2{
+    position: absolute;
+    top: 58px;
+    right: 0;
+    width: 31vw;
+}
+.motto{
+    position: absolute;
+    top: 58px;
+    right: 0;
+    width: 31vw;
+
+}
+
+    
+.video1{
+    position: absolute;
+    top: 60px;
+    right: 253px;
+    width: 23vw;
+}
+.baby2.o{
+    top: 65px;
+    right: 247px;
+    width: 23vw;
+}
+
+.dash1{
+    position: absolute;
+    top: 58px;
+    right: 0;
+    width: 31vw;
+}
+
+
+.chomu{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.paradox{
+    background-color:black;
+    color: white;
+    padding: 34px;
+    
+    
+}
+.paradoxbox h1{
+text-align: center;
+font-size: 48px;
+}
+.paradoxbox{
+    background-color: #414141;
+    color: white;
+}
+
+.paradoxbox  svg {
+        filter: invert(1);
+
+    
+    
+}
+.paradoxbox:hover{
+background-color: #292828;
+color: white;
+}
+.paradoxbox{
+    transition: all 1s ease-out;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+padding: 24px;
+align-items: space-between;
+max-width: 55vw;
+margin: 11px auto;
+background-color: #363535;
+cursor: pointer;
+}
+
+
+
+.paradox h1{
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+}
+
+
